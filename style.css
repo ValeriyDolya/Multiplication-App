@@ -1,0 +1,36 @@
+body,h1,h2,h4 {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(blue, pink);
+}
+.form {
+    width: 300px;
+    padding: 20px;
+  
+    border-radius: 5px;
+    background: linear-gradient(rgb(183, 66, 118),rgb(180, 180, 81));
+}
+h1 {
+    margin-top: 15px;
+}
+h2 {
+    margin-bottom: 15px;
+}
+.button {
+    background-color: rgb(183, 66, 118);
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+.button:active {
+    background-color:rgb(180, 180, 81);
+    color: black;
+    border: 1px solid black;
+}
